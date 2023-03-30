@@ -32,7 +32,7 @@ npm run dev
 
 7. This project uses a local file called VerbwireIconBlack.png for the image (located in the assets folder). You can replace this with any image you'd like to mint to the blockchain. The /pages/api/mint.js references this file and can be changed as desired.
 
-8. Any data can be minted to the blockchain. If you would like the data to be viewable on common platforms like Opensea, then please follow the format included:
+8. Any data can be minted to the blockchain. The /pages/api/mint.js file has an example call via the Verbwire SDK populating the data field. This is what shows up as metadata on various platforms. If you would like the data to be viewable on common platforms like Opensea, then please follow the format included:
 
 ```js
 data: "[{\"trait_type\":\"TraitType1\",\"value\":\"TraitValue1\"},{\"trait_type\":\"TraitType2\",\"value\":\"TraitValue2\"}]",
